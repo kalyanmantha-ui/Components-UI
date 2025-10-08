@@ -17603,7 +17603,411 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./componentData":"2gWdm","./Cards":"01rxG","./Header":"fOaLO","./Footer":"70qsZ","./Hero":"7roae","./SwiggyDashboard":"j99Hi"}],"jnFvT":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./componentData":"2gWdm","./Cards":"01rxG","./Header":"fOaLO","./Footer":"70qsZ","./Hero":"7roae","./SwiggyDashboard":"j99Hi","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"2gWdm":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$2737 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$2737.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$2737.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "components", ()=>components);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _accordin = require("./components/Accordin");
+var _accordinDefault = parcelHelpers.interopDefault(_accordin);
+var _tabs = require("./components/Tabs");
+var _tabsDefault = parcelHelpers.interopDefault(_tabs);
+var _modalExample = require("./components/ModalExample");
+var _modalExampleDefault = parcelHelpers.interopDefault(_modalExample);
+var _toolTip = require("./components/ToolTip");
+var _toolTipDefault = parcelHelpers.interopDefault(_toolTip);
+var _dropDown = require("./components/DropDown");
+var _dropDownDefault = parcelHelpers.interopDefault(_dropDown);
+var _pagination = require("./components/Pagination");
+var _paginationDefault = parcelHelpers.interopDefault(_pagination);
+var _dataTable = require("./components/DataTable");
+var _dataTableDefault = parcelHelpers.interopDefault(_dataTable);
+var _themeToggle = require("./components/ThemeToggle");
+var _themeToggleDefault = parcelHelpers.interopDefault(_themeToggle);
+var _toast = require("./components/Toast");
+var _toastDefault = parcelHelpers.interopDefault(_toast);
+var _searchBar = require("./components/SearchBar");
+var _searchBarDefault = parcelHelpers.interopDefault(_searchBar);
+var _formValidation = require("./components/FormValidation");
+var _formValidationDefault = parcelHelpers.interopDefault(_formValidation);
+var _swiggyDashboard = require("./components/SwiggyDashboard");
+var _swiggyDashboardDefault = parcelHelpers.interopDefault(_swiggyDashboard);
+var _accordinMp4 = require("./Recordings/Accordin.mp4");
+var _accordinMp4Default = parcelHelpers.interopDefault(_accordinMp4);
+var _tabsRecordingMp4 = require("./Recordings/TabsRecording.mp4");
+var _tabsRecordingMp4Default = parcelHelpers.interopDefault(_tabsRecordingMp4);
+var _modalRecordingMp4 = require("./Recordings/ModalRecording.mp4");
+var _modalRecordingMp4Default = parcelHelpers.interopDefault(_modalRecordingMp4);
+var _toolTipRecordingMp4 = require("./Recordings/ToolTipRecording.mp4");
+var _toolTipRecordingMp4Default = parcelHelpers.interopDefault(_toolTipRecordingMp4);
+var _dropDownRecordingMp4 = require("./Recordings/DropDownRecording.mp4");
+var _dropDownRecordingMp4Default = parcelHelpers.interopDefault(_dropDownRecordingMp4);
+var _paginationRecordingMp4 = require("./Recordings/PaginationRecording.mp4");
+var _paginationRecordingMp4Default = parcelHelpers.interopDefault(_paginationRecordingMp4);
+var _dataTableRecordingMp4 = require("./Recordings/DataTableRecording.mp4");
+var _dataTableRecordingMp4Default = parcelHelpers.interopDefault(_dataTableRecordingMp4);
+var _themeToggleRecordingMp4 = require("./Recordings/ThemeToggleRecording.mp4");
+var _themeToggleRecordingMp4Default = parcelHelpers.interopDefault(_themeToggleRecordingMp4);
+var _toastNotificationRecordingMp4 = require("./Recordings/Toast NotificationRecording.mp4");
+var _toastNotificationRecordingMp4Default = parcelHelpers.interopDefault(_toastNotificationRecordingMp4);
+var _searchRecordingMp4 = require("./Recordings/SearchRecording.mp4");
+var _searchRecordingMp4Default = parcelHelpers.interopDefault(_searchRecordingMp4);
+var _formValidationRecordingMp4 = require("./Recordings/FormValidationRecording.mp4");
+var _formValidationRecordingMp4Default = parcelHelpers.interopDefault(_formValidationRecordingMp4);
+var _swiggyRecordingMp4 = require("./Recordings/swiggyRecording.mp4");
+var _swiggyRecordingMp4Default = parcelHelpers.interopDefault(_swiggyRecordingMp4);
+const components = [
+    {
+        id: 1,
+        title: "Accordion",
+        type: "modal",
+        description: "Expandable/collapsible sections for FAQs.",
+        icon: "\uD83D\uDCDC",
+        component: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _accordinDefault.default), {}, void 0, false, {
+            fileName: "src/componentData.tsx",
+            lineNumber: 33,
+            columnNumber: 16
+        }, undefined),
+        previewVideo: (0, _accordinMp4Default.default)
+    },
+    {
+        id: 2,
+        title: "Tabs",
+        type: "modal",
+        description: "Switch between multiple views.",
+        icon: "\uD83D\uDDC2\uFE0F",
+        component: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _tabsDefault.default), {}, void 0, false, {
+            fileName: "src/componentData.tsx",
+            lineNumber: 42,
+            columnNumber: 16
+        }, undefined),
+        previewVideo: (0, _tabsRecordingMp4Default.default)
+    },
+    {
+        id: 3,
+        title: "Modal/Dialog",
+        type: "modal",
+        description: "Popup for confirmations or messages.",
+        icon: "\uD83E\uDE9F",
+        component: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _modalExampleDefault.default), {}, void 0, false, {
+            fileName: "src/componentData.tsx",
+            lineNumber: 51,
+            columnNumber: 16
+        }, undefined),
+        previewVideo: (0, _modalRecordingMp4Default.default)
+    },
+    {
+        id: 4,
+        title: "Tooltip",
+        type: "modal",
+        description: "Hover/focus hints for inline help.",
+        icon: "\u2139\uFE0F",
+        component: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _toolTipDefault.default), {}, void 0, false, {
+            fileName: "src/componentData.tsx",
+            lineNumber: 60,
+            columnNumber: 16
+        }, undefined),
+        previewVideo: (0, _toolTipRecordingMp4Default.default)
+    },
+    {
+        id: 5,
+        title: "Dropdown",
+        type: "modal",
+        description: "Select from a list of options.",
+        icon: "\u2B07\uFE0F",
+        component: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dropDownDefault.default), {}, void 0, false, {
+            fileName: "src/componentData.tsx",
+            lineNumber: 69,
+            columnNumber: 16
+        }, undefined),
+        previewVideo: (0, _dropDownRecordingMp4Default.default)
+    },
+    {
+        id: 6,
+        title: "Pagination",
+        type: "modal",
+        description: "Navigate through lists and tables.",
+        icon: "\uD83D\uDCD1",
+        component: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _paginationDefault.default), {}, void 0, false, {
+            fileName: "src/componentData.tsx",
+            lineNumber: 78,
+            columnNumber: 16
+        }, undefined),
+        previewVideo: (0, _paginationRecordingMp4Default.default)
+    },
+    {
+        id: 7,
+        title: "Data Table + Progress Bars",
+        type: "modal",
+        description: "Table with rows and progress indicators.",
+        icon: "\uD83D\uDCCA",
+        component: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dataTableDefault.default), {}, void 0, false, {
+            fileName: "src/componentData.tsx",
+            lineNumber: 87,
+            columnNumber: 16
+        }, undefined),
+        previewVideo: (0, _dataTableRecordingMp4Default.default)
+    },
+    {
+        id: 8,
+        title: "Theme Toggle",
+        type: "modal",
+        description: "Switch between light and dark mode.",
+        icon: "\uD83C\uDF1E\uD83C\uDF19",
+        component: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _themeToggleDefault.default), {}, void 0, false, {
+            fileName: "src/componentData.tsx",
+            lineNumber: 96,
+            columnNumber: 16
+        }, undefined),
+        previewVideo: (0, _themeToggleRecordingMp4Default.default)
+    },
+    {
+        id: 9,
+        title: "Toast Notifications",
+        type: "modal",
+        description: "Auto-hiding success/error/info alerts.",
+        icon: "\uD83D\uDD14",
+        component: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _toastDefault.default), {}, void 0, false, {
+            fileName: "src/componentData.tsx",
+            lineNumber: 105,
+            columnNumber: 16
+        }, undefined),
+        previewVideo: (0, _toastNotificationRecordingMp4Default.default)
+    },
+    {
+        id: 10,
+        title: "Search Bar",
+        type: "modal",
+        description: "Search with typeahead suggestions.",
+        icon: "\uD83D\uDD0D",
+        component: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _searchBarDefault.default), {}, void 0, false, {
+            fileName: "src/componentData.tsx",
+            lineNumber: 114,
+            columnNumber: 16
+        }, undefined),
+        previewVideo: (0, _searchRecordingMp4Default.default)
+    },
+    {
+        id: 11,
+        title: "Form Validation",
+        type: "modal",
+        description: "Forms with real-time error checking.",
+        icon: "\uD83D\uDCDD",
+        component: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _formValidationDefault.default), {}, void 0, false, {
+            fileName: "src/componentData.tsx",
+            lineNumber: 123,
+            columnNumber: 16
+        }, undefined),
+        previewVideo: (0, _formValidationRecordingMp4Default.default)
+    },
+    {
+        id: 12,
+        title: "Swiggy Dashboard",
+        type: "page",
+        description: "Food ordering dashboard with filters & cart.",
+        icon: "\uD83C\uDF54",
+        component: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _swiggyDashboardDefault.default), {}, void 0, false, {
+            fileName: "src/componentData.tsx",
+            lineNumber: 132,
+            columnNumber: 16
+        }, undefined),
+        previewVideo: (0, _swiggyRecordingMp4Default.default)
+    }
+];
+
+  $parcel$ReactRefreshHelpers$2737.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","./components/Accordin":"gkBH6","./components/Tabs":"ev5Ai","./components/ModalExample":"2gWJI","./components/ToolTip":"7jAJp","./components/DropDown":"6xIAy","./components/Pagination":"9WfLV","./components/DataTable":"lcnfE","./components/ThemeToggle":"LFcOS","./components/Toast":"2rmTZ","./components/SearchBar":"2o2SV","./components/FormValidation":"hWSEC","./components/SwiggyDashboard":"3Fx5J","./Recordings/Accordin.mp4":"boQZf","./Recordings/TabsRecording.mp4":"2Beep","./Recordings/ModalRecording.mp4":"0vXzJ","./Recordings/ToolTipRecording.mp4":"lvrLH","./Recordings/DropDownRecording.mp4":"hKrq0","./Recordings/PaginationRecording.mp4":"cEwjQ","./Recordings/DataTableRecording.mp4":"jiClJ","./Recordings/ThemeToggleRecording.mp4":"dOG0L","./Recordings/Toast NotificationRecording.mp4":"a6Qq2","./Recordings/SearchRecording.mp4":"Xei6o","./Recordings/FormValidationRecording.mp4":"aiSR6","./Recordings/swiggyRecording.mp4":"ahqKC","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"gkBH6":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$1758 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$1758.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$1758.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>Accordin);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _s = $RefreshSig$();
+function Accordin() {
+    _s();
+    const [currOpen, setcurrOpen] = (0, _react.useState)([
+        false,
+        false,
+        false
+    ]);
+    const [opened, setOpened] = (0, _react.useState)();
+    const [multi, setMulti] = (0, _react.useState)(false);
+    function open(i) {
+        const curr = [
+            ...currOpen
+        ];
+        if (!multi) {
+            if (opened == 1 || opened == 2 || opened == 0) {
+                curr[opened] = false;
+                setOpened(-1);
+            }
+            curr[i] = !currOpen[i];
+            if (curr[i] === true) setOpened(i);
+            setcurrOpen(curr);
+        } else {
+            curr[i] = !currOpen[i];
+            setcurrOpen(curr);
+        }
+    }
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "accordinContainer",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        type: "checkbox",
+                        onChange: (e)=>{
+                            if (e.target.checked) setMulti(true);
+                            else {
+                                setMulti(false);
+                                setcurrOpen([
+                                    false,
+                                    false,
+                                    false
+                                ]);
+                            }
+                        }
+                    }, void 0, false, {
+                        fileName: "src/components/Accordin.tsx",
+                        lineNumber: 27,
+                        columnNumber: 14
+                    }, this),
+                    "Mulitple"
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Accordin.tsx",
+                lineNumber: 27,
+                columnNumber: 9
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "accordinItem",
+                onClick: ()=>open(0),
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
+                        className: "title",
+                        children: "HTML"
+                    }, void 0, false, {
+                        fileName: "src/components/Accordin.tsx",
+                        lineNumber: 33,
+                        columnNumber: 13
+                    }, this),
+                    currOpen[0] && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: "This is the content for html when expanded"
+                        }, void 0, false, {
+                            fileName: "src/components/Accordin.tsx",
+                            lineNumber: 34,
+                            columnNumber: 34
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/Accordin.tsx",
+                        lineNumber: 34,
+                        columnNumber: 29
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Accordin.tsx",
+                lineNumber: 32,
+                columnNumber: 9
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "accordinItem",
+                onClick: ()=>open(1),
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
+                        className: "title",
+                        children: "CSS"
+                    }, void 0, false, {
+                        fileName: "src/components/Accordin.tsx",
+                        lineNumber: 37,
+                        columnNumber: 13
+                    }, this),
+                    currOpen[1] && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: "This is the content for CSS when expanded"
+                        }, void 0, false, {
+                            fileName: "src/components/Accordin.tsx",
+                            lineNumber: 38,
+                            columnNumber: 34
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/Accordin.tsx",
+                        lineNumber: 38,
+                        columnNumber: 29
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Accordin.tsx",
+                lineNumber: 36,
+                columnNumber: 9
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "accordinItem",
+                onClick: ()=>open(2),
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
+                        className: "title",
+                        children: "Javascript"
+                    }, void 0, false, {
+                        fileName: "src/components/Accordin.tsx",
+                        lineNumber: 41,
+                        columnNumber: 13
+                    }, this),
+                    currOpen[2] && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: "This is the content for Javascript when expanded"
+                        }, void 0, false, {
+                            fileName: "src/components/Accordin.tsx",
+                            lineNumber: 42,
+                            columnNumber: 34
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/Accordin.tsx",
+                        lineNumber: 42,
+                        columnNumber: 29
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Accordin.tsx",
+                lineNumber: 40,
+                columnNumber: 9
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Accordin.tsx",
+        lineNumber: 26,
+        columnNumber: 12
+    }, this);
+}
+_s(Accordin, "+wifzLSYK+wmzXwHFR1jZ04v59Q=");
+_c = Accordin;
+var _c;
+$RefreshReg$(_c, "Accordin");
+
+  $parcel$ReactRefreshHelpers$1758.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"jnFvT":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -19911,411 +20315,7 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"2gWdm":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$2737 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$2737.init();
-var prevRefreshReg = globalThis.$RefreshReg$;
-var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$2737.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "components", ()=>components);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _accordin = require("./components/Accordin");
-var _accordinDefault = parcelHelpers.interopDefault(_accordin);
-var _tabs = require("./components/Tabs");
-var _tabsDefault = parcelHelpers.interopDefault(_tabs);
-var _modalExample = require("./components/ModalExample");
-var _modalExampleDefault = parcelHelpers.interopDefault(_modalExample);
-var _toolTip = require("./components/ToolTip");
-var _toolTipDefault = parcelHelpers.interopDefault(_toolTip);
-var _dropDown = require("./components/DropDown");
-var _dropDownDefault = parcelHelpers.interopDefault(_dropDown);
-var _pagination = require("./components/Pagination");
-var _paginationDefault = parcelHelpers.interopDefault(_pagination);
-var _dataTable = require("./components/DataTable");
-var _dataTableDefault = parcelHelpers.interopDefault(_dataTable);
-var _themeToggle = require("./components/ThemeToggle");
-var _themeToggleDefault = parcelHelpers.interopDefault(_themeToggle);
-var _toast = require("./components/Toast");
-var _toastDefault = parcelHelpers.interopDefault(_toast);
-var _searchBar = require("./components/SearchBar");
-var _searchBarDefault = parcelHelpers.interopDefault(_searchBar);
-var _formValidation = require("./components/FormValidation");
-var _formValidationDefault = parcelHelpers.interopDefault(_formValidation);
-var _swiggyDashboard = require("./components/SwiggyDashboard");
-var _swiggyDashboardDefault = parcelHelpers.interopDefault(_swiggyDashboard);
-var _accordinMp4 = require("./Recordings/Accordin.mp4");
-var _accordinMp4Default = parcelHelpers.interopDefault(_accordinMp4);
-var _tabsRecordingMp4 = require("./Recordings/TabsRecording.mp4");
-var _tabsRecordingMp4Default = parcelHelpers.interopDefault(_tabsRecordingMp4);
-var _modalRecordingMp4 = require("./Recordings/ModalRecording.mp4");
-var _modalRecordingMp4Default = parcelHelpers.interopDefault(_modalRecordingMp4);
-var _toolTipRecordingMp4 = require("./Recordings/ToolTipRecording.mp4");
-var _toolTipRecordingMp4Default = parcelHelpers.interopDefault(_toolTipRecordingMp4);
-var _dropDownRecordingMp4 = require("./Recordings/DropDownRecording.mp4");
-var _dropDownRecordingMp4Default = parcelHelpers.interopDefault(_dropDownRecordingMp4);
-var _paginationRecordingMp4 = require("./Recordings/PaginationRecording.mp4");
-var _paginationRecordingMp4Default = parcelHelpers.interopDefault(_paginationRecordingMp4);
-var _dataTableRecordingMp4 = require("./Recordings/DataTableRecording.mp4");
-var _dataTableRecordingMp4Default = parcelHelpers.interopDefault(_dataTableRecordingMp4);
-var _themeToggleRecordingMp4 = require("./Recordings/ThemeToggleRecording.mp4");
-var _themeToggleRecordingMp4Default = parcelHelpers.interopDefault(_themeToggleRecordingMp4);
-var _toastNotificationRecordingMp4 = require("./Recordings/Toast NotificationRecording.mp4");
-var _toastNotificationRecordingMp4Default = parcelHelpers.interopDefault(_toastNotificationRecordingMp4);
-var _searchRecordingMp4 = require("./Recordings/SearchRecording.mp4");
-var _searchRecordingMp4Default = parcelHelpers.interopDefault(_searchRecordingMp4);
-var _formValidationRecordingMp4 = require("./Recordings/FormValidationRecording.mp4");
-var _formValidationRecordingMp4Default = parcelHelpers.interopDefault(_formValidationRecordingMp4);
-var _swiggyRecordingMp4 = require("./Recordings/swiggyRecording.mp4");
-var _swiggyRecordingMp4Default = parcelHelpers.interopDefault(_swiggyRecordingMp4);
-const components = [
-    {
-        id: 1,
-        title: "Accordion",
-        type: "modal",
-        description: "Expandable/collapsible sections for FAQs.",
-        icon: "\uD83D\uDCDC",
-        component: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _accordinDefault.default), {}, void 0, false, {
-            fileName: "src/componentData.tsx",
-            lineNumber: 33,
-            columnNumber: 16
-        }, undefined),
-        previewVideo: (0, _accordinMp4Default.default)
-    },
-    {
-        id: 2,
-        title: "Tabs",
-        type: "modal",
-        description: "Switch between multiple views.",
-        icon: "\uD83D\uDDC2\uFE0F",
-        component: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _tabsDefault.default), {}, void 0, false, {
-            fileName: "src/componentData.tsx",
-            lineNumber: 42,
-            columnNumber: 16
-        }, undefined),
-        previewVideo: (0, _tabsRecordingMp4Default.default)
-    },
-    {
-        id: 3,
-        title: "Modal/Dialog",
-        type: "modal",
-        description: "Popup for confirmations or messages.",
-        icon: "\uD83E\uDE9F",
-        component: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _modalExampleDefault.default), {}, void 0, false, {
-            fileName: "src/componentData.tsx",
-            lineNumber: 51,
-            columnNumber: 16
-        }, undefined),
-        previewVideo: (0, _modalRecordingMp4Default.default)
-    },
-    {
-        id: 4,
-        title: "Tooltip",
-        type: "modal",
-        description: "Hover/focus hints for inline help.",
-        icon: "\u2139\uFE0F",
-        component: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _toolTipDefault.default), {}, void 0, false, {
-            fileName: "src/componentData.tsx",
-            lineNumber: 60,
-            columnNumber: 16
-        }, undefined),
-        previewVideo: (0, _toolTipRecordingMp4Default.default)
-    },
-    {
-        id: 5,
-        title: "Dropdown",
-        type: "modal",
-        description: "Select from a list of options.",
-        icon: "\u2B07\uFE0F",
-        component: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dropDownDefault.default), {}, void 0, false, {
-            fileName: "src/componentData.tsx",
-            lineNumber: 69,
-            columnNumber: 16
-        }, undefined),
-        previewVideo: (0, _dropDownRecordingMp4Default.default)
-    },
-    {
-        id: 6,
-        title: "Pagination",
-        type: "modal",
-        description: "Navigate through lists and tables.",
-        icon: "\uD83D\uDCD1",
-        component: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _paginationDefault.default), {}, void 0, false, {
-            fileName: "src/componentData.tsx",
-            lineNumber: 78,
-            columnNumber: 16
-        }, undefined),
-        previewVideo: (0, _paginationRecordingMp4Default.default)
-    },
-    {
-        id: 7,
-        title: "Data Table + Progress Bars",
-        type: "modal",
-        description: "Table with rows and progress indicators.",
-        icon: "\uD83D\uDCCA",
-        component: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dataTableDefault.default), {}, void 0, false, {
-            fileName: "src/componentData.tsx",
-            lineNumber: 87,
-            columnNumber: 16
-        }, undefined),
-        previewVideo: (0, _dataTableRecordingMp4Default.default)
-    },
-    {
-        id: 8,
-        title: "Theme Toggle",
-        type: "modal",
-        description: "Switch between light and dark mode.",
-        icon: "\uD83C\uDF1E\uD83C\uDF19",
-        component: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _themeToggleDefault.default), {}, void 0, false, {
-            fileName: "src/componentData.tsx",
-            lineNumber: 96,
-            columnNumber: 16
-        }, undefined),
-        previewVideo: (0, _themeToggleRecordingMp4Default.default)
-    },
-    {
-        id: 9,
-        title: "Toast Notifications",
-        type: "modal",
-        description: "Auto-hiding success/error/info alerts.",
-        icon: "\uD83D\uDD14",
-        component: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _toastDefault.default), {}, void 0, false, {
-            fileName: "src/componentData.tsx",
-            lineNumber: 105,
-            columnNumber: 16
-        }, undefined),
-        previewVideo: (0, _toastNotificationRecordingMp4Default.default)
-    },
-    {
-        id: 10,
-        title: "Search Bar",
-        type: "modal",
-        description: "Search with typeahead suggestions.",
-        icon: "\uD83D\uDD0D",
-        component: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _searchBarDefault.default), {}, void 0, false, {
-            fileName: "src/componentData.tsx",
-            lineNumber: 114,
-            columnNumber: 16
-        }, undefined),
-        previewVideo: (0, _searchRecordingMp4Default.default)
-    },
-    {
-        id: 11,
-        title: "Form Validation",
-        type: "modal",
-        description: "Forms with real-time error checking.",
-        icon: "\uD83D\uDCDD",
-        component: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _formValidationDefault.default), {}, void 0, false, {
-            fileName: "src/componentData.tsx",
-            lineNumber: 123,
-            columnNumber: 16
-        }, undefined),
-        previewVideo: (0, _formValidationRecordingMp4Default.default)
-    },
-    {
-        id: 12,
-        title: "Swiggy Dashboard",
-        type: "page",
-        description: "Food ordering dashboard with filters & cart.",
-        icon: "\uD83C\uDF54",
-        component: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _swiggyDashboardDefault.default), {}, void 0, false, {
-            fileName: "src/componentData.tsx",
-            lineNumber: 132,
-            columnNumber: 16
-        }, undefined),
-        previewVideo: (0, _swiggyRecordingMp4Default.default)
-    }
-];
-
-  $parcel$ReactRefreshHelpers$2737.postlude(module);
-} finally {
-  globalThis.$RefreshReg$ = prevRefreshReg;
-  globalThis.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"dVPUn","./components/Accordin":"gkBH6","./components/Tabs":"ev5Ai","./components/ModalExample":"2gWJI","./components/ToolTip":"7jAJp","./components/DropDown":"6xIAy","./components/Pagination":"9WfLV","./components/DataTable":"lcnfE","./components/ThemeToggle":"LFcOS","./components/Toast":"2rmTZ","./components/SearchBar":"2o2SV","./components/FormValidation":"hWSEC","./components/SwiggyDashboard":"3Fx5J","./Recordings/Accordin.mp4":"boQZf","./Recordings/TabsRecording.mp4":"2Beep","./Recordings/ModalRecording.mp4":"0vXzJ","./Recordings/ToolTipRecording.mp4":"lvrLH","./Recordings/DropDownRecording.mp4":"hKrq0","./Recordings/PaginationRecording.mp4":"cEwjQ","./Recordings/DataTableRecording.mp4":"jiClJ","./Recordings/ThemeToggleRecording.mp4":"dOG0L","./Recordings/Toast NotificationRecording.mp4":"a6Qq2","./Recordings/SearchRecording.mp4":"Xei6o","./Recordings/FormValidationRecording.mp4":"aiSR6","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Recordings/swiggyRecording.mp4":"ahqKC"}],"gkBH6":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$1758 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$1758.init();
-var prevRefreshReg = globalThis.$RefreshReg$;
-var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$1758.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "default", ()=>Accordin);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _s = $RefreshSig$();
-function Accordin() {
-    _s();
-    const [currOpen, setcurrOpen] = (0, _react.useState)([
-        false,
-        false,
-        false
-    ]);
-    const [opened, setOpened] = (0, _react.useState)();
-    const [multi, setMulti] = (0, _react.useState)(false);
-    function open(i) {
-        const curr = [
-            ...currOpen
-        ];
-        if (!multi) {
-            if (opened == 1 || opened == 2 || opened == 0) {
-                curr[opened] = false;
-                setOpened(-1);
-            }
-            curr[i] = !currOpen[i];
-            if (curr[i] === true) setOpened(i);
-            setcurrOpen(curr);
-        } else {
-            curr[i] = !currOpen[i];
-            setcurrOpen(curr);
-        }
-    }
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "accordinContainer",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                        type: "checkbox",
-                        onChange: (e)=>{
-                            if (e.target.checked) setMulti(true);
-                            else {
-                                setMulti(false);
-                                setcurrOpen([
-                                    false,
-                                    false,
-                                    false
-                                ]);
-                            }
-                        }
-                    }, void 0, false, {
-                        fileName: "src/components/Accordin.tsx",
-                        lineNumber: 27,
-                        columnNumber: 14
-                    }, this),
-                    "Mulitple"
-                ]
-            }, void 0, true, {
-                fileName: "src/components/Accordin.tsx",
-                lineNumber: 27,
-                columnNumber: 9
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "accordinItem",
-                onClick: ()=>open(0),
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
-                        className: "title",
-                        children: "HTML"
-                    }, void 0, false, {
-                        fileName: "src/components/Accordin.tsx",
-                        lineNumber: 33,
-                        columnNumber: 13
-                    }, this),
-                    currOpen[0] && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: "This is the content for html when expanded"
-                        }, void 0, false, {
-                            fileName: "src/components/Accordin.tsx",
-                            lineNumber: 34,
-                            columnNumber: 34
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "src/components/Accordin.tsx",
-                        lineNumber: 34,
-                        columnNumber: 29
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/Accordin.tsx",
-                lineNumber: 32,
-                columnNumber: 9
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "accordinItem",
-                onClick: ()=>open(1),
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
-                        className: "title",
-                        children: "CSS"
-                    }, void 0, false, {
-                        fileName: "src/components/Accordin.tsx",
-                        lineNumber: 37,
-                        columnNumber: 13
-                    }, this),
-                    currOpen[1] && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: "This is the content for CSS when expanded"
-                        }, void 0, false, {
-                            fileName: "src/components/Accordin.tsx",
-                            lineNumber: 38,
-                            columnNumber: 34
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "src/components/Accordin.tsx",
-                        lineNumber: 38,
-                        columnNumber: 29
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/Accordin.tsx",
-                lineNumber: 36,
-                columnNumber: 9
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "accordinItem",
-                onClick: ()=>open(2),
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
-                        className: "title",
-                        children: "Javascript"
-                    }, void 0, false, {
-                        fileName: "src/components/Accordin.tsx",
-                        lineNumber: 41,
-                        columnNumber: 13
-                    }, this),
-                    currOpen[2] && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: "This is the content for Javascript when expanded"
-                        }, void 0, false, {
-                            fileName: "src/components/Accordin.tsx",
-                            lineNumber: 42,
-                            columnNumber: 34
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "src/components/Accordin.tsx",
-                        lineNumber: 42,
-                        columnNumber: 29
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/Accordin.tsx",
-                lineNumber: 40,
-                columnNumber: 9
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "src/components/Accordin.tsx",
-        lineNumber: 26,
-        columnNumber: 12
-    }, this);
-}
-_s(Accordin, "+wifzLSYK+wmzXwHFR1jZ04v59Q=");
-_c = Accordin;
-var _c;
-$RefreshReg$(_c, "Accordin");
-
-  $parcel$ReactRefreshHelpers$1758.postlude(module);
-} finally {
-  globalThis.$RefreshReg$ = prevRefreshReg;
-  globalThis.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"ev5Ai":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"ev5Ai":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$37a4 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$37a4.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
